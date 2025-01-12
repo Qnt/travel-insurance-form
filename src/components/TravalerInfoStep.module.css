@@ -1,0 +1,17 @@
+.next-button {
+  align-self: flex-start;
+  font-size: 1.5rem;
+  padding-block: 0.5rem;
+  padding-inline: 4rem;
+  background: #00e676;
+  color: white;
+  border: none;
+  border-radius: 1rem;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+.next-button:disabled {
+  background: #e0e0e0;
+  cursor: not-allowed;
+}
